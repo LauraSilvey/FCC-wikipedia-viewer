@@ -44,4 +44,10 @@ $(document).ready(function() {
   $("#searchButton").on("click", function() {
     searchWiki();
   });
+
+  $("#query").on("keypress", function(event){
+    if (event.which === 13){
+      searchWiki();
+    }
+  });
 });
