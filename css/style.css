@@ -1,1 +1,37 @@
+body {
+	background-color: #F9E2D1;
+	background-image: url('../images/school.png');	
+}
+
+h1 {
+	padding-top: 40px;
+}
+
+#randomWiki {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: #75B8C8;
+	color: #FAF9F9;
+}
+
+#searchField {
+	width: 550px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#searchButton {
+	background-color: #75B8C8;
+	color: #FAF9F9;
+}
+
+.well {
+	background-color: white;
+}
+
+a:link, a:visited {
+	color: #75B8C8;
+}
+
+
 
