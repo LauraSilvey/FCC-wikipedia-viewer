@@ -1,23 +1,32 @@
 body {
 	background-color: #F9E2D1;
 	background-image: url('../images/school.png');	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5em;
 }
 
 h1 {
 	padding-top: 40px;
+	padding-bottom: 30px;
+	font-family: 'Sorts Mill Goudy', Times, serif;
+	font-size: 4.5em;
+	color: #626267;
+}
+
+p {
+	margin-bottom: 0px;
 }
 
 #randomWiki {
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	background-color: #75B8C8;
 	color: #FAF9F9;
 }
 
 #searchField {
-	width: 550px;
+	width: 400px;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 #searchButton {
