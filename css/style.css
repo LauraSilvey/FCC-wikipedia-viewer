@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-	padding-top: 40px;
+	padding-top: 35px;
 	padding-bottom: 30px;
 	font-family: 'Sorts Mill Goudy', Times, serif;
 	font-size: 4.5em;
@@ -18,15 +18,15 @@ p {
 }
 
 #randomWiki {
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	background-color: #75B8C8;
 	color: #FAF9F9;
 }
 
 #searchField {
-	width: 400px;
-	margin: 0 auto;
-	margin-bottom: 25px;
+	position: relative;
+	margin: 0 auto 20px auto;
+	max-width: 425px;
 }
 
 #searchButton {
@@ -34,7 +34,12 @@ p {
 	color: #FAF9F9;
 }
 
+#query {
+	font-size: 16px;
+}
+
 .well {
+	padding-top: 0px;
 	background-color: white;
 }
 
